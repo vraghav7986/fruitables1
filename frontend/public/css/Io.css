@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* Header */
+.header {
+    background: #7bc000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Section */
+.international-section {
+    padding: 60px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #2d572c;
+    margin-bottom: 40px;
+}
+
+/* Order Card Layout */
+.order-card {
+    display: grid;
+    gap: 30px;
+}
+
+/* Individual Order */
+.order-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.order-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Top Section */
+.order-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.order-top h3 {
+    color: #2d572c;
+}
+
+/* Details */
+.order-details p {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Status */
+.status {
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: white;
+}
+
+.shipped {
+    background: #17a2b8;
+}
+
+.processing {
+    background: #ffc107;
+    color: black;
+}
+
+.delivered {
+    background: #28a745;
+}
+
+/* Button */
+.track-btn {
+    margin-top: 15px;
+    background: #7bc000;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.track-btn:hover {
+    background: #5fa000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .order-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}

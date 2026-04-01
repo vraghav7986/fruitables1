@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+/* Header */
+.header {
+    background: #7bc000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Section */
+.order-section {
+    padding: 60px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #2d572c;
+    margin-bottom: 40px;
+}
+
+/* Table */
+.order-table {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.order-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.header-row {
+    background: #eaffd0;
+    font-weight: bold;
+    color: #2d572c;
+}
+
+.order-row:last-child {
+    border-bottom: none;
+}
+
+/* Status */
+.status {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.delivered {
+    background: #28a745;
+}
+
+.pending {
+    background: #ffc107;
+    color: #000;
+}
+
+.cancelled {
+    background: #dc3545;
+}
+
+/* Button */
+.view-btn {
+    background: #7bc000;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.view-btn:hover {
+    background: #5fa000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .order-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .header-row {
+        display: none;
+    }
+}
