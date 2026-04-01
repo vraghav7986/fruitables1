@@ -77,3 +77,26 @@ cd fruitables
 
 
 ## 📁 Project Structure
+Mernproject/
+├── backend/
+│ ├── config/ # DB connection
+│ ├── Controller/ # Business logic (auth, products, orders, cart)
+│ ├── middleware/ # Auth middleware (user & admin)
+│ ├── model/ # Mongoose models
+│ ├── Routes/ # Express routes
+│ ├── .env
+│ └── app.js
+├── frontend/ # Main customer store
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Home, Shop, Cart, Checkout, etc.
+│ │ ├── CartContext.js
+│ │ └── api.js
+│ └── package.json
+└── admin/ # Admin dashboard (separate React app)
+├── src/
+│ ├── pages/ # Dashboard, Products, Orders
+│ ├── components/ # Layout, PrivateRoute
+│ ├── api.js
+│ └── utils/
+└── package.json
