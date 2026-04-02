@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { CartContext } from '../../CartContext';  // Fixed path
 import axios from 'axios';
 
-const API_URL = 'http://localhost:9999';
+const API_URL = "https://fruitables-backend-n8nj.onrender.com";
 
 function Fruitshop() {
   const [products, setProducts] = useState([]);

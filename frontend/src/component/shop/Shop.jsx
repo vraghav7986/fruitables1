@@ -11,7 +11,7 @@ function Shop() {
   const [loading, setLoading] = useState(true);
   const { addToCart } = useContext(CartContext);
 
-  const API_URL = 'http://localhost:9999';
+ const API_URL = "https://fruitables-backend-n8nj.onrender.com";
 
   useEffect(() => {
     fetchProducts();

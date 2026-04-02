@@ -141,7 +141,7 @@ export const forgotPassword = async (req, res) => {
 
     await user.save();
 
-    const resetLink = `http://localhost:3000/reset-password/${token}`;
+    const resetLink = `https://fruitables1.vercel.app/reset-password/${token}`;
 
     await transporter.sendMail({
       to: user.email,

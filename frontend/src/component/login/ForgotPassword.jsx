@@ -10,7 +10,7 @@ function ForgotPassword() {
 
     try {
       const res = await axios.post(
-        "http://localhost:9999/user/send-otp",
+        "https://fruitables-backend-n8nj.onrender.com/user/send-otp",
         { email }
       );
 

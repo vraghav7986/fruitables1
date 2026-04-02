@@ -12,7 +12,7 @@ function VerifyOtp() {
 
     try {
       const res = await axios.post(
-        "http://localhost:9999/user/verify-otp",
+        "https://fruitables-backend-n8nj.onrender.com/user/verify-otp",
         { email, otp }
       );
 

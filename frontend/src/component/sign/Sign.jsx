@@ -68,7 +68,7 @@ function Sign() {
     try {
       console.log("object");
       e.preventDefault();
-      const dataaa = await axios.post("http://localhost:9999/user/signup",data);
+      const dataaa = await axios.post("https://fruitables-backend-n8nj.onrender.com/user/signup",data);
       console.log(dataaa, "SFSF");
       if (dataaa.data.status === 400) {
         toast.error(dataaa.data.message);

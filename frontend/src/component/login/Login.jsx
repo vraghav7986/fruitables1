@@ -20,7 +20,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:9999/user/login", data);
+      const response = await axios.post("https://fruitables-backend-n8nj.onrender.com/user/login", data);
       if (response.data.status === 200 && response.data.success) {
         const { token, user } = response.data.body;
         localStorage.setItem("token", token);
