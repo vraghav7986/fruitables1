@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { CartContext } from '../../CartContext';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:9999';
+const API_URL = "https://fruitables-backend-n8nj.onrender.com";
 
 function Checkout() {
   const { cart, clearCart } = useContext(CartContext);
