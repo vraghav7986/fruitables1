@@ -9,7 +9,7 @@ export const CartProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [cartCount, setCartCount] = useState(0);
 
-  const API_URL = 'http://localhost:9999';
+  const API_URL = "https://fruitables-backend-n8nj.onrender.com";
 
   const getToken = () => localStorage.getItem('token');
 
