@@ -4,8 +4,8 @@ A full-stack MERN application for buying fresh organic fruits, vegetables, and g
 It includes a customer‑facing store, a secure admin panel, and a user dashboard with order history.
 
 ---
-Live Link :- fruitables1.vercel.app
-
+Live Link :- [fruitables1.vercel.app
+](https://fruitables1.vercel.app/)
 ## ✨ Features
 
 - **User Authentication** – JWT-based login/registration  
