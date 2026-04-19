@@ -107,5 +107,3 @@ MIT © Raghav Verma
 
 📬 Contact
 GitHub: @vraghav7986
-Live demo: [fruitables1.vercel.app
-](https://fruitables1.vercel.app/)
