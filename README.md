@@ -96,3 +96,16 @@ Mernproject/
 │ ├── api.js
 │ └── utils/
 └── package.json
+
+
+🤝 Contributing
+This is a personal project, but feedback and suggestions are welcome.
+Open an issue or submit a pull request on GitHub.
+
+📄 License
+MIT © Raghav Verma
+
+📬 Contact
+GitHub: @vraghav7986
+Live demo: [fruitables1.vercel.app
+](https://fruitables1.vercel.app/)
