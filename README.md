@@ -72,11 +72,6 @@ JWT_SECRET=your_secret_key
 git clone https://github.com/your-username/fruitables.git
 cd fruitables
 
-
-
-
-
-
 ## 📁 Project Structure
 Mernproject/
 ├── backend/
